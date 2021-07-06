@@ -2,7 +2,7 @@
 
 This is a write-up and a pseudo tutorial written while making this C Compiler. You can follow along and write a compiler of your own. Here I design a compiler for a subset of C language.
 
-If you are here for the code (you know who you are), just want to let you know that the hall of shame will not have mercy upon you.
+If you are here for the code and submit a copy-pasta (you know who you are and why), just want to let you know that the hall of shame will not have mercy upon you :)
 
 # Part 1 : **`Creating a Symbol Table`**
 
@@ -790,3 +790,13 @@ x = 10;
 we can ignore the code generated for the first line as that value is never used.
 
 Another optimization can also be made for temporary variables. We can reallocate the temporary variables and ensure efficient use. 
+
+# Conclusion
+
+If you are this far and done with the coding by yourself, just to let you know that you should be very proud of yourself. When I successfully run a recursion after the Intermediate Cdde Generation part, it was the most wholesome moment of my CS life :) Hope it was a wholesome journey for you too :)
+
+&nbsp;
+
+
+### **`Md. Zarif Ul Alam`**
+`CSE , BUET`
