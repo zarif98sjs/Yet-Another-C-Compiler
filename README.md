@@ -760,7 +760,7 @@ Here's how we can do that in our grammar :
 
 Notice the `tag`-less destructor, which is called on _**every symbol that is present**_. This might raise the question on how to select which destructor to call since there might be more than one. Should `bison` detects that there is a `tag`-specific destructor for a discarded symbol _**it will call that and ignore the more generic one**_, so in case of discarding a symbol that has a semantic value of `<symbol_info>` then only the destructor for `<symbol_info>` will be called.
 
-# Part 4 : **`Intermediate Code Generator`**
+# Part 5 : **`Intermediate Code Generator`**
 
 For the final piece of this puzzle, we need to write an intermediate code generator on top of our bison code , which will generate 8086 assembly code. We can simulate that using **emu8086** simulator
 
